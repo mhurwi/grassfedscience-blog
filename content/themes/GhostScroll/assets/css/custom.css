@@ -1,0 +1,50 @@
+.email-box-custom {
+  text-align: center;
+}
+
+/* http://css-tricks.com/styling-texty-inputs-only/ */
+.email-box-custom input[type="email"] {
+  border: 5px solid white;
+    -webkit-box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    -moz-box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}
+
+.email-box-custom #email-submit-custom {
+  font-size: 26px;
+}
+
+input[type="submit"].btn {
+
+    text-decoration: none;
+    background-color: #9fd067;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0;
+    overflow: visible;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    margin-top: 2rem;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+
+}
+
+input[type="submit"]:hover {
+    background: #86c440;
+}
